@@ -1,0 +1,12 @@
+<div style="height: 450px">
+  <ag-grid-angular style="height: 100%; width: 100%;"
+                   [rowData]="data"
+                   [columnDefs]="colDefs"
+                   [rowSelection]="'multiple'"
+                   [suppressRowClickSelection]="true"
+                   [rowDeselection]="true"
+                   (rowSelected)="onRowSelected($event)"
+                   (gridReady)="onGridReady($event)"
+                   class="ag-theme-balham">
+  </ag-grid-angular>
+</div>
