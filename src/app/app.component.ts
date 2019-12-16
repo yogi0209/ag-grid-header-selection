@@ -24,7 +24,7 @@ export class AppComponent implements OnInit {
       },
       {
         field: '',
-        headerName: '',
+        headerName: 'Booked',
         checkboxSelection: true,
         headerCheckboxSelectionFilteredOnly: true,
         headerCheckboxSelection: params => {
